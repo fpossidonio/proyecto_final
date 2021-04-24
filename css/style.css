@@ -15,12 +15,6 @@
     color: aliceblue;
 }
 
-.table_text { /* Tipo de selector de CLASE*/ /* Lo identifican a través del punto (.) */
-    color: rgb(133, 128, 131);
-    font-style: oblique;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align:left;
-}
 .forms { /* Tipo de selector de CLASE*/ /* Lo identifican a través del punto (.) */
     color: rgb(240, 240, 240);
     font-style: oblique;
@@ -93,21 +87,18 @@ h6 {
     margin: 0px;
     padding: 10px;
     display: inline-block;
-    float: left;
 }
 .news {
     width: 47%;
     margin: 0px;
     padding: 10px;
     display: inline-block;
-    float: right;
 }
 .aside {
     width: 18%;
     margin: 0px;
     padding: 0px;
     display: inline-block;
-    float: right;
     position:relative;
 }
 
@@ -119,6 +110,9 @@ nav {
     justify-content: space-evenly;
     align-items: center;
 }
+.container {
+    width: 100%;
+}   
 
 footer {
     width: 80%;
