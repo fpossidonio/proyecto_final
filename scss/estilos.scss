@@ -67,8 +67,10 @@ h6 {
     color:aliceblue;
 }
 
+$ancho: 100%;
+
 .content {
-    width: 80%;
+    width: $ancho - 20%; 
     min-height: 700px;
     margin: 10px;
     padding: 1px;
@@ -91,7 +93,7 @@ h6 {
     display: inline-block;
 }
 nav {
-    width: 100%;
+    width: $ancho;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -99,7 +101,7 @@ nav {
     align-items: center;
 }
 .container {
-    width: 100%;
+    width: $ancho;
     .container__content  {
         color: azure;
         font-size: 15px;
@@ -193,3 +195,7 @@ article {
     }
 
 }
+
+@for $i from 1 through 6 {
+    .h#{$i} { width: 20px - $i; }
+  }

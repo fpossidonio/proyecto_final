@@ -166,3 +166,21 @@ article {
   .promo .promo_contenido {
     font-size: 12px;
     font-style: bold; }
+
+.h1 {
+  width: 19px; }
+
+.h2 {
+  width: 18px; }
+
+.h3 {
+  width: 17px; }
+
+.h4 {
+  width: 16px; }
+
+.h5 {
+  width: 15px; }
+
+.h6 {
+  width: 14px; }
